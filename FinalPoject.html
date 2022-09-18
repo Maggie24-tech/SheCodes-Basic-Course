@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gucci 👜</title>
+<style>
+
+h1 {
+text-align: center;
+font-weight: bolder;
+font-size: 50px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(122, 14, 14);
+}
+
+
+h2 {
+text-align: center;
+font-weight: bolder;
+font-size: 28px;
+color: rgba(41, 62, 4, 0.754);
+border: 1px solid #3B2118;
+padding: 15px;
+border-radius: 8px;
+}
+
+img {
+display: block;
+margin: 0 auto;
+max-width: 80%;
+height: 350px;
+border-radius: none;
+padding: 10px;
+}
+
+p{
+line-height: 1.5;
+font-size: 19px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+background: linear-gradient(to bottom, #ff9933 -5%, #993300 100%);
+}
+
+button{
+display: block;
+margin: 20px auto; 
+font-size: 20px;  
+font-weight: bolder;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgb(140, 27, 27);
+color:rgb(36, 33, 33);
+padding: 15px 20px;
+border: none;
+border-radius: 10px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5) ;
+transition: all 200ms ease-in-out;
+}
+
+button:hover{
+opacity: 0.9;
+cursor: pointer;
+background-color: rgb(232, 201, 195);
+}
+
+.content{
+max-width: 600px;
+margin: auto;
+}
+
+
+.line{
+border-bottom: 1px solid rgb(105, 55, 11);
+display:block;
+
+}
+
+.underline{
+border-bottom: 1px solid rgb(102, 52, 11);
+display:block;
+}
+
+.visit-site {
+display: block;
+margin-top: 40px;
+text-decoration: none;
+text-align: center;
+color: rgb(35, 61, 95);
+font-size: 20px;
+}
+
+.visit-site:hover {
+text-decoration: underline;
+}
+
+.footer{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 100px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="content">
+<h1>
+I Love GUCCI 👜
+</h1>
+<h2>
+High-End Luxury Fashion 
+</h2>
+<p>
+<strong>Gucci</strong> is an Italian high-end luxury fashion house based in Florence, Italy. Its product lines include handbags,
+ready-to-wear, footwear, accessories, and home decoration; and it licenses its name and branding to Coty, Inc. for
+fragrance and cosmetics under the name Gucci Beauty. Gucci was founded in 1921 by Guccio Gucci (1881 to 1953) in Florence, Tuscany. Under the direction of Aldo Gucci (son of
+Guccio), Gucci became a worldwide-known brand, an icon of the Italian Dolce Vita.
+</p>
+<span class="line"></span>
+<img src="https://media.gucci.com/content/StoreDetailStandard_970x400/1576668603/StoreDetailStandard_Kuwait-refurbishment-1_001_Default.jpg"
+ alt="Gucci" />
+<span class="underline"></span>
+ <a href="https://www.gucci.com/us/en/st/stories/article/exquisite-gucci-campaign" target="_blank" class="visit-site" > Find the next top fashion</a>
+<button class="visit site">
+👜 Discover More
+</button>
+<p class="footer">
+<i>This page was built by Magdalene Nsiah</i>
+</p>
+<script>
+function discoverMore() {
+let first = prompt("What is your first name?");
+let last = prompt("What last name?");
+alert("Hi " + first + ", thank you for signing up! " + "😊");
+}
+
+let button = document.querySelector("button");
+button.addEventListener("click", discoverMore);
+</script>
+</div>
+</body>
+</html>
